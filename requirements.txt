@@ -21,16 +21,23 @@ numpy==1.26.4
     #   -r requirements.in
     #   contourpy
     #   matplotlib
+    #   pandas
     #   scikit-learn
     #   scipy
 packaging==24.0
     # via matplotlib
+pandas==2.2.2
+    # via -r requirements.in
 pillow==10.3.0
     # via matplotlib
 pyparsing==3.1.2
     # via matplotlib
 python-dateutil==2.9.0.post0
-    # via matplotlib
+    # via
+    #   matplotlib
+    #   pandas
+pytz==2024.1
+    # via pandas
 scikit-learn==1.4.2
     # via -r requirements.in
 scipy==1.13.0
@@ -39,3 +46,5 @@ six==1.16.0
     # via python-dateutil
 threadpoolctl==3.4.0
     # via scikit-learn
+tzdata==2024.1
+    # via pandas
